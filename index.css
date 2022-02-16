@@ -1,0 +1,58 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: auto;
+    background-color: #1C1C1C;
+    padding-bottom: 10px;
+    max-width: 350px;
+}
+h1 {
+    color: white;
+    margin-left: 20px;
+    padding: 20px 0 0 0;
+}
+h1 > span {
+    color: #10B981;
+}
+#theButton {
+    background-color: #10B981;
+    color: white;
+    Width: 223px;
+    height: 42px;
+    border: 0;
+    border-radius: 6px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+select {
+    width: 60px;
+    height: 40px;
+    margin-right: 20px;
+    text-align: center;
+}
+.passwords {
+    display: flex;
+    justify-content: space-around;
+    height: 42px;
+    width: 100%;
+    margin: 20px auto;
+    padding-left: 20px;
+}
+.copyButt {
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    background-color: #10B981;
+    color: white;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.checkbox {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-bottom: 20px;
+}
