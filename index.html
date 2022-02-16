@@ -1,48 +1,52 @@
 <html>
     <head>
-        <!-- <link rel="stylesheet" href="index.css"> -->
+        <link rel="stylesheet" href="index.css">
     </head>
     <body>
         <div class="container">
-            <h1>Generate a <br /><span>random password</span></h1>
+            <h1>Generate random passwords</h1>
             <div class="checkbox">
               <input type="checkbox" id="numbersX" checked />numbers
               <input type="checkbox" id="lowerCaseX" checked />lowerCase
               <input type="checkbox" id="upperCaseX" checked />upperCase
               <input type="checkbox" id="symbolsX" checked />symbols
             </div>
-            <button id="theButton" onclick="generatePassword()">Generate password</button>
-            <select id="lengthInput" onchange="setLength(event)">
-              <option value="6">6</option>
-              <option value="7">7</option>
-              <option value="8">8</option>
-              <option value="9">9</option>
-              <option value="10">10</option>
-              <option value="11">11</option>
-              <option value="12">12</option>
-              <option value="13">13</option>
-              <option value="14">14</option>
-              <option value="15">15</option>
-              <option value="16" selected>16</option>
-              <option value="17">17</option>
-              <option value="18">18</option>
-              <option value="19">19</option>
-            </select>
-            <div class="passwords">
-              <input type="text" id="password1" />
-              <button class="copyButt" onclick="copyFun1()">Copy</button>
+            <div class="main">
+              <button id="theButton" onclick="generatePassword()">Generate passwords</button>
+              <select id="lengthInput" onchange="setLength(event)">
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16" selected>16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+              </select>
             </div>
-            <div class="passwords">
-              <input type="text" id="password2" />
-              <button class="copyButt" onclick="copyFun2()">Copy</button>
-            </div>
-            <div class="passwords">
-              <input type="text" id="password3" />
-              <button class="copyButt" onclick="copyFun3()">Copy</button>
-            </div>
-            <div class="passwords">
-              <input type="text" id="password4" />
-              <button class="copyButt" onclick="copyFun4()">Copy</button>
+            <div class="passwords">  
+              <div class="password">
+                <input type="text" id="password1" />
+                <button class="copyButt" onclick="copyFun1()">Copy</button>
+              </div>
+              <div class="password">
+                <input type="text" id="password2" />
+                <button class="copyButt" onclick="copyFun2()">Copy</button>
+              </div>
+              <div class="password">
+                <input type="text" id="password3" />
+                <button class="copyButt" onclick="copyFun3()">Copy</button>
+              </div>
+              <div class="password">
+                <input type="text" id="password4" />
+                <button class="copyButt" onclick="copyFun4()">Copy</button>
+              </div>
             </div>
         </div>
         <script src="index.js"></script>
