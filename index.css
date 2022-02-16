@@ -15,8 +15,6 @@ h1 {
     color: white;
     margin-top: 0;
 }
-h1 span {
-}
 .checkbox {
     display: flex;
     justify-content: space-around;
@@ -39,8 +37,6 @@ h1 span {
 #lengthInput {
     width: 60px;
     text-align: center;
-}
-.passwords{
 }
 .password{
     display: flex;
