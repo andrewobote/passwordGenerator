@@ -72,25 +72,33 @@ function generatePassword(){
 
 function copyFun1(){
   let copyPass1 = document.getElementById("password1")
-  copyPass1.select()
-  navigator.clipboard.writeText(copyPass1.value)
-  alert("Password 1 copied to clipboard")
+  if(copyPass1.value){
+	  copyPass1.select()
+	  navigator.clipboard.writeText(copyPass1.value)
+	  alert("Password 1 copied to clipboard")
+  }
 }
 function copyFun2(){
   let copyPass2 = document.getElementById("password2")
-  copyPass2.select()
-  navigator.clipboard.writeText(copyPass2.value)
-  alert("Password 2 copied to clipboard")
+  if(copyPass2.value){
+	  copyPass2.select()
+	  navigator.clipboard.writeText(copyPass2.value)
+	  alert("Password 2 copied to clipboard")
+  }
 }
 function copyFun3(){
   let copyPass3 = document.getElementById("password3")
-  copyPass3.select()
-  navigator.clipboard.writeText(copyPass3.value)
-  alert("Password 3 copied to clipboard")
+  if(copyPass3.value){
+	  copyPass3.select()
+	  navigator.clipboard.writeText(copyPass3.value)
+	  alert("Password 3 copied to clipboard")
+  }
 }
 function copyFun4(){
   let copyPass4 = document.getElementById("password4")
-  copyPass4.select()
-  navigator.clipboard.writeText(copyPass4.value)
-  alert("Password 4 copied to clipboard")
+  if(copyPass4.value){
+	  copyPass4.select()
+	  navigator.clipboard.writeText(copyPass4.value)
+	  alert("Password 4 copied to clipboard")
+  }
 }
